@@ -4,7 +4,7 @@ var attempt = 3; // Variable to count number of attempts.
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
-if ( username == "theanaskhxn" && password == "anas khan"){
+if ( username == "" && password == ""){
 alert ("Login successfully");
 window.location = "https://anas-webs.github.io/home"; // Redirecting to other page.
 return false;
